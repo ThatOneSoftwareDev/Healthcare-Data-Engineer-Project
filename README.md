@@ -22,6 +22,14 @@ Patient Vital Monitoring Pipeline is a real-time data system that ingests, proce
 - [Shatoria Giles](https://linktr.ee/shatoriagiles)
 
 
+## Architecture?
+- [See LucidChart here](https://lucid.app/lucidchart/f2c81603-b835-406f-be5c-3988902d3a6e/edit?viewport_loc=-1769%2C-1342%2C8870%2C4253%2C0_0&invitationId=inv_4dc23d31-3b3a-404f-af96-ce149821892c)
+
+<p align="center">
+  <img src="https://i.postimg.cc/52tmxxX4/Patient-Vital-Monitoring-Pipeline.png" alt="Size Limit CLI" width="100%">
+</p>
+
+
 ## How It Works
 
 1. The pipeline starts when medical devices stream patient vital signs (heart rate, blood pressure, oxygen levels, temperature) into Pub/Sub, which acts as the real-time ingestion layer for incoming healthcare data.
@@ -35,5 +43,5 @@ Patient Vital Monitoring Pipeline is a real-time data system that ingests, proce
 6. Because the system is fully streaming-based, it processes patient vitals with minimal delay, enabling near real-time monitoring and faster clinical response times.
 
 <p align="center">
-  <img src="https://i.postimg.cc/y6Mqgbm8/Linkedin-banner.png" alt="Size Limit CLI" width="1005">
+  <img src="https://i.postimg.cc/y6Mqgbm8/Linkedin-banner.png" alt="Size Limit CLI" width="100%">
 </p>
